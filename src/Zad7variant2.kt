@@ -6,7 +6,7 @@ fun main(){
         var x = readLine()!!.toDouble()
         print("Введите y: ")
         var y = readLine()!!.toDouble()
-        print("Введите z: ")
+        print("Введите x: ")
         var z = readLine()!!.toDouble()
         var a: Double
         var b: Double

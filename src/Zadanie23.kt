@@ -3,6 +3,7 @@ import kotlin.math.tan
 //Задание 2, номер 23, практическая работа 7
 fun main(){
     try {
+
         print("Введите количество углов n-угольника: ");
         var n = readLine()!!.toInt()
         print("Введите длину стороны $n-угольника: ");
@@ -18,4 +19,5 @@ fun main(){
     catch(e:Exception) {
         println("Ввод неккоректных данных!")
     }
+
 }

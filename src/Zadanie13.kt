@@ -19,8 +19,9 @@ fun main(){
             println("m=${String.format("%.3f", m)}")
             println("bisa=${String.format("%.3f", bisa)}")
         }
-        else println("Сторона треугольника не может быть отрицательным числом")
+        else println("Длина треугольника не может быть отрицательным числом")
     }
     catch (e:Exception)
     {println("Ошибка ввода!")}
+
 }
